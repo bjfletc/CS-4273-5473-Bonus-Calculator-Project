@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Weekly 06 | Calculator</string>
+    <string name="app_name"> Weekly 06 | Calculator</string>
 
     <!-- Calculator Button Strings -->
     <string name="seven_button">7</string>
