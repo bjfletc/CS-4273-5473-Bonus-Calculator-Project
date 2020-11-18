@@ -109,7 +109,9 @@ class MainActivity : AppCompatActivity() {
         clearBtn.setOnClickListener {
             calculationTextView.text = ""
         }
-
+        clearAllBtn.setOnClickListener {
+            calculationTextView.text = "0"
+        }
         equalBtn.setOnClickListener {
             if (calculationTextView.text.toString() == "" || calculationTextView.text.toString() == "ERROR") {
                 calculationTextView.text = calculationTextView.text.toString()
