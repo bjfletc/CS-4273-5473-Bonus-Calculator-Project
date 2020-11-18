@@ -177,13 +177,26 @@
         app:layout_constraintTop_toBottomOf="@+id/oneBtn" />
 
     <Button
-        android:id="@+id/clearBtn"
-        android:layout_width="369dp"
+        android:id="@+id/clearAllBtn"
+        android:layout_width="184dp"
         android:layout_height="88dp"
         android:layout_marginStart="17dp"
         android:layout_marginTop="18dp"
+        android:layout_marginEnd="12dp"
         android:text="@string/clear_everything_button"
+        app:layout_constraintEnd_toStartOf="@+id/clearBtn"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/decimalBtn" />
+
+    <Button
+        android:id="@+id/clearBtn"
+        android:layout_width="184dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/clear_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clearAllBtn"
+        app:layout_constraintTop_toBottomOf="@+id/decimalBtn"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
